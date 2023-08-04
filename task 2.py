@@ -8,8 +8,8 @@ import plotly.express as px
 !pip install plotly
 
 # Read the data from CSV files
-data = pd.read_csv('/Unemp_in_India.csv')
-data = pd.read_csv('/Unemp_Rate_upto_11_2020.csv')
+data = pd.read_csv('Unemp_in_India.csv')
+data = pd.read_csv('Unemp_Rate_upto_11_2020.csv')
 
 # Print information about the data
 print(data.info())
